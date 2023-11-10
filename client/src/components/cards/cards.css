@@ -1,0 +1,7 @@
+.cards-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+    padding: 150px 80px;
+}
+

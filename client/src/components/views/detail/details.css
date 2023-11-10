@@ -1,0 +1,31 @@
+.detail-img {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.detail-cont {
+    color: rgb(39, 35, 35);
+    display: flex;
+    margin: 80px 200px;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+.detail-driver {
+    flex: 1; /* Aprovecha todo el espacio disponible */
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.detail-driver img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto;
+}
+
+.detail-driver h2{
+    color: red;
+}

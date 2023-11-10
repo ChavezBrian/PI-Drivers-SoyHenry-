@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-cont {
+    height: 100vh; /* Establece la altura al 100% de la altura de la ventana */
+    background-image: url("../../img/portada.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title-cont {
+    text-align: center;
+    padding-top: 10%; /* Ajusta el valor de padding-top según la cantidad de espacio que desees en la parte superior */
+}
+
+
+.title {
+    font-family: "Your Preferred Font", sans-serif; /* Cambia "Your Preferred Font" a la fuente que prefieras */
+    font-weight: bold;
+    font-size: 4rem; /* Tamaño de fuente ajustado */
+    color: white; /* Color de fuente personalizado */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra de texto */
+    padding-bottom: 15px; /* Espacio entre el título y el contenido debajo */
+}
+
+

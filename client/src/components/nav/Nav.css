@@ -1,0 +1,74 @@
+.container {
+    margin: auto; /* Centra horizontalmente el contenido en el contenedor */
+    padding: 0; /* Elimina el relleno interior */
+    background: black; /* Establece el fondo en negro */
+    width: 100vw; /* Ancho del 100% del viewport */
+    min-width: 1000px; /* Establece un ancho mínimo de 1000 píxeles */
+    border-bottom: 2px solid white; /* Agrega un borde inferior de 2 píxeles en blanco */
+}
+
+.home {
+    text-decoration: none; /* Elimina la decoración de subrayado de los enlaces */
+    color: white; /* Establece el color del texto en blanco */
+    padding: 20px; /* Agrega relleno alrededor del texto */
+    display: block; /* Hace que los enlaces ocupen todo el ancho disponible */
+    border-right: 1px solid white; /* Agrega un borde derecho de 1 píxel en blanco */
+    font-size: 1.2em; /* Ajusta el tamaño del texto */
+}
+
+.container li {
+    display: inline-block; /* Hace que los elementos de lista se muestren en línea y se alineen horizontalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.home:hover {
+    background-color: white; /* Establece el fondo en blanco al pasar el cursor por encima */
+    color: black; /* Cambia el color del texto a negro al pasar el cursor por encima */
+}
+
+input {
+    font: normal; /* Establece el estilo de fuente en normal */
+    color: black; /* Establece el color del texto en negro */
+}
+
+form > div {
+    background: #fff; /* Establece el fondo en blanco */
+    padding: 0px 22px 0px 26px; /* Agrega relleno alrededor del contenido */
+    border-radius: 30px; /* Establece un radio de borde de 30 píxeles */
+    border: 2px solid #cad3dc; /* Agrega un borde sólido con color */
+}
+
+form input {
+    border: none; /* Elimina el borde del campo de entrada */
+    background: transparent; /* Establece el fondo como transparente */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+    padding-left: 24px; /* Agrega relleno a la izquierda del campo de entrada */
+    background-repeat: no-repeat; /* Evita la repetición del fondo */
+    width: 300px; /* Establece el ancho inicial del campo de entrada */
+    transition: all 1s; /* Agrega una transición suave en 1 segundo */
+}
+
+form input:focus {
+    outline: none; /* Elimina el contorno predeterminado al enfocar el campo de entrada */
+    width: 300px; /* Mantiene el ancho del campo de entrada al enfocar */
+}
+
+.li {
+    margin-left: 25%; /* Establece un margen izquierdo del 25% para los elementos de lista */
+}
+
+.custom-button {
+    background: transparent; /* Establece el fondo como transparente */
+    border: none; /* Elimina el borde del botón */
+}
+
+.custom-button img {
+    width: 18px; /* Establece el ancho de la imagen en 18 píxeles */
+    height: 18px; /* Establece la altura de la imagen en 18 píxeles */
+}
+
+.logo-container img {
+    width: 50px; /* Establece el ancho de la imagen del logotipo en 50 píxeles */
+    height: 50px; /* Establece la altura de la imagen del logotipo en 50 píxeles */
+    margin-left: 20px; /* Agrega espacio entre el botón y el logotipo */
+}

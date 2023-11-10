@@ -1,0 +1,64 @@
+label {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.error-cont {
+    color: rgb(255, 0, 0);
+}
+
+.form-cont {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+.form-cont h2{
+    color: black;
+    text-decoration: underline;
+}
+
+.form-label {
+    padding-bottom: 20px;
+}
+
+.form-label input,
+.form-label select,
+.form-label textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.form-label select{
+    color: rgb(32, 30, 30);
+}
+
+.form-button{
+    width: 20%;
+    border: 2px solid white;
+}
+.form-submit {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.form-label textarea {
+    height: 200px;
+    color: black;
+}
+
+.form-cont fieldset {
+    background-color: rgb(29, 25, 25);
+}
+
+.form-submit {
+    width: 200px;
+    margin: 2% auto; /* Ajustado para centrar el botón */
+    font-size: 1.2rem;
+}

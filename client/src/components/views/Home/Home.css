@@ -1,0 +1,26 @@
+.home-page{
+    text-align: center;  
+}
+
+.home-page h2{
+    color: black;
+}
+
+
+.home-filter{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+}
+.filters{
+    /* position: absolute; */
+    width: 100%;
+    margin: 0 25%  ;
+}
+
+.select{
+    margin-right: 40px;
+}
+
+
+

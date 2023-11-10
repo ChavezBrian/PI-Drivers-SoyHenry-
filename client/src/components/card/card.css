@@ -1,0 +1,27 @@
+.card-cont {
+    background-color: white;
+    color: black;
+    border-radius: 35px;
+    border: 3px solid black;
+    text-align: center;
+    transition: transform 0.3s; /* Agrega una transición suave para suavizar el efecto */
+}
+
+.card-cont:hover {
+    transform: scale(1.05); /* Agranda la tarjeta en un 5% cuando el cursor está encima */
+}
+
+.card-img {
+    object-fit: cover;
+    width: 280px;
+    height: 430px;
+    border-radius: 10px;
+    border: 2px solid black; /* Agrega un borde negro de 2px */
+}
+.card-button{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
