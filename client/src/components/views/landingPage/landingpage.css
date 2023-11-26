@@ -6,7 +6,7 @@ html, body {
 
 .landing-cont {
     height: 100vh; /* Establece la altura al 100% de la altura de la ventana */
-    background-image: url("../../img/portada.png");
+    background-image: url("../../../img/portada.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

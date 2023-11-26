@@ -10,8 +10,9 @@ function validation({name, lastname, nationality, image, description, birthdate}
 
     // Verificaciones y validaciones para cada campo
     if (name.length < 3) errors.name = "Must be at least 3 characters";
+    if (name.length >15) errors.name = "15 characters max"
     if (!name.length) errors.name = "Complete the field";
-    if (lastname.length < 3) errors.lastname = "Must be at least 3 characters";
+    if (lastname.length < 3) errors.lastname = "Must be at least 3 characters and 15 characters max";
     if (!lastname.length) errors.lastname = "Complete the field";
     if (description.length < 5) errors.description = "Must be at least 5 characters";
     if (!description.length) errors.description = "Complete the field";

@@ -1,4 +1,4 @@
-import Card from "../Card/Card"; // Importa el componente Card, que se utilizará para representar a cada conductor
+import Card from "../card/card"; // Importa el componente Card, que se utilizará para representar a cada conductor
 import "./cards.css"; // Importa los estilos CSS para el componente Cards
 
 function Cards({ drivers }) {

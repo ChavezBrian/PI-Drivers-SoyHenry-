@@ -42,7 +42,7 @@ module.exports = (sequelize) => {
     },
     // Define la columna 'image' como una cadena de texto (URL) con valor predeterminado y validación de ser una URL
     image: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       defaultValue: "https://img.freepik.com/premium-photo/f1-driver-waiting-race-begin-formula-1-poster-concept-generative-ai_117038-4284.jpg",
       validate: {
         isUrl: {
